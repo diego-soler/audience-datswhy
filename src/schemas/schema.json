@@ -1,0 +1,122 @@
+{
+  "$ref": "#/definitions/Doc",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "categories": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "subcategories": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "segments": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "description": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "ui": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "hint": {
+                            "additionalProperties": {
+                              "type": "string"
+                            },
+                            "type": "object"
+                          },
+                          "title": {
+                            "additionalProperties": {
+                              "type": "string"
+                            },
+                            "type": "object"
+                          }
+                        },
+                        "required": ["title", "hint"],
+                        "type": "object"
+                      }
+                    },
+                    "required": ["name", "description", "ui"],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "ui": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "hint": {
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "type": "object"
+                    },
+                    "title": {
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "type": "object"
+                    }
+                  },
+                  "required": ["title", "hint"],
+                  "type": "object"
+                }
+              },
+              "required": ["name", "description", "ui", "segments"],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "ui": {
+            "additionalProperties": false,
+            "properties": {
+              "hint": {
+                "additionalProperties": {
+                  "type": "string"
+                },
+                "type": "object"
+              },
+              "title": {
+                "additionalProperties": {
+                  "type": "string"
+                },
+                "type": "object"
+              }
+            },
+            "required": ["title", "hint"],
+            "type": "object"
+          }
+        },
+        "required": ["name", "description", "ui", "subcategories"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "geographicZone": {
+      "type": "string"
+    },
+    "providerName": {
+      "type": "string"
+    },
+    "tableName": {
+      "type": "string"
+    }
+  },
+  "required": ["geographicZone", "tableName", "providerName", "categories"],
+  "type": "object"
+}

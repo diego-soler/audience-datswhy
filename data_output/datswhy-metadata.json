@@ -1,0 +1,872 @@
+{
+  "_id": "000065cf54710000000000000005",
+  "tableName": "audience_datswhy",
+  "categories": [
+      {
+          "ui": {
+              "hint": {
+                  "en": "DatsWhy"
+              },
+              "title": {
+                  "en": "DatsWhy"
+              }
+          },
+          "name": "DatsWhy",
+          "description": "Basic Demographics",
+          "subcategories": [
+              {
+                  "ui": {
+                      "hint": {
+                          "en": "Age"
+                      },
+                      "title": {
+                          "en": "Age"
+                      }
+                  },
+                  "name": "age",
+                  "segments": [
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Ages from 0 to 14"
+                              },
+                              "title": {
+                                  "en": "Ages from 0 to 14"
+                              }
+                          },
+                          "name": "age_001",
+                          "description": "Ages from 0 to 14",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ] 
+                      },
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Ages from 15 to 17"
+                              },
+                              "title": {
+                                  "en": "Ages from 15 to 17"
+                              }
+                          },
+                          "name": "age_002",
+                          "description": "Ages from 15 to 17",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      },
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Ages from 18 to 24"
+                              },
+                              "title": {
+                                  "en": "Ages from 18 to 24"
+                              }
+                          },
+                          "name": "age_003",
+                          "description": "Ages from 18 to 24",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      },
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Ages from 25 to 59"
+                              },
+                              "title": {
+                                  "en": "Ages from 25 to 59"
+                              }
+                          },
+                          "name": "age_004",
+                          "description": "Ages from 25 to 59",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      },
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Ages from 60"
+                              },
+                              "title": {
+                                  "en": "Ages from 60"
+                              }
+                          },
+                          "name": "age_005",
+                          "description": "Ages from 60",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      }
+                  ],
+                  "description": "Age subcategory"
+              },
+              {
+                  "ui": {
+                      "hint": {
+                          "en": "Gender"
+                      },
+                      "title": {
+                          "en": "Gender"
+                      }
+                  },
+                  "name": "gender",
+                  "segments": [
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Female"
+                              },
+                              "title": {
+                                  "en": "Female"
+                              }
+                          },
+                          "name": "gender_001",
+                          "description": "Female gender",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      },
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Male"
+                              },
+                              "title": {
+                                  "en": "Male"
+                              }
+                          },
+                          "name": "gender_002",
+                          "description": "Male",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      }
+
+                  ],
+                  "description": "Gender subcategory"
+              },
+              {
+                  "ui": {
+                      "hint": {
+                          "en": "Household incomes"
+                      },
+                      "title": {
+                          "en": "Household incomes"
+                      }
+                  },
+                  "name": "hh_income",
+                  "segments": [
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Nivel socioeconomico AB"
+                              },
+                              "title": {
+                                  "en": "Nivel socioeconomico AB"
+                              }
+                          },
+                          "name": "hh_income_001",
+                          "description": "Nivel socioeconomico AB",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      },
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Nivel socioeconomico C+"
+                              },
+                              "title": {
+                                  "en": "Nivel socioeconomico C+"
+                              }
+                          },
+                          "name": "hh_income_002",
+                          "description": "Nivel socioeconomico C+",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      },
+                      {
+                          "ui": {
+                              "hint": {
+                                  "en": "Nivel socioeconomico C"
+                              },
+                              "title": {
+                                  "en": "Nivel socioeconomico C"
+                              }
+                          },
+                          "name": "hh_income_003",
+                          "description": "Nivel socioeconomico C",
+                          "data": [
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Impressions"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Impressions"
+                                }
+                              },
+                              "name": "audience_impressions",
+                              "description": "Hourly Audience Impressions"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Frequency"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Frequency"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Frequency"
+                            },
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience unique reach"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Unique Reach"
+                                }
+                              },
+                              "name": "audience_frequency",
+                              "description": "Hourly Audience Unique Reach"
+                            }, 
+                            {
+                              "ui": {
+                                "hint": {
+                                    "en": "Hourly Audience Exposure"
+                                },
+                                "title": {
+                                    "en": "Hourly Audience Exposure"
+                                }
+                              },
+                              "name": "audience_expousure",
+                              "description": "Hourly Audience Exposure"
+                            }
+                          ]
+                      },
+                      {
+                        "ui": {
+                            "hint": {
+                                "en": "Nivel socioeconomico D+"
+                            },
+                            "title": {
+                                "en": "Nivel socioeconomico D+"
+                            }
+                        },
+                        "name": "hh_income_003",
+                        "description": "Nivel socioeconomico D+",
+                        "data": [
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Impressions"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Impressions"
+                              }
+                            },
+                            "name": "audience_impressions",
+                            "description": "Hourly Audience Impressions"
+                          },
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Frequency"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Frequency"
+                              }
+                            },
+                            "name": "audience_frequency",
+                            "description": "Hourly Audience Frequency"
+                          },
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience unique reach"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Unique Reach"
+                              }
+                            },
+                            "name": "audience_frequency",
+                            "description": "Hourly Audience Unique Reach"
+                          }, 
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Exposure"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Exposure"
+                              }
+                            },
+                            "name": "audience_expousure",
+                            "description": "Hourly Audience Exposure"
+                          }
+                        ]
+                      },
+                      {
+                        "ui": {
+                            "hint": {
+                                "en": "Nivel socioeconomico D"
+                            },
+                            "title": {
+                                "en": "Nivel socioeconomico D"
+                            }
+                        },
+                        "name": "hh_income_003",
+                        "description": "Nivel socioeconomico D",
+                        "data": [
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Impressions"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Impressions"
+                              }
+                            },
+                            "name": "audience_impressions",
+                            "description": "Hourly Audience Impressions"
+                          },
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Frequency"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Frequency"
+                              }
+                            },
+                            "name": "audience_frequency",
+                            "description": "Hourly Audience Frequency"
+                          },
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience unique reach"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Unique Reach"
+                              }
+                            },
+                            "name": "audience_frequency",
+                            "description": "Hourly Audience Unique Reach"
+                          }, 
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Exposure"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Exposure"
+                              }
+                            },
+                            "name": "audience_expousure",
+                            "description": "Hourly Audience Exposure"
+                          }
+                        ]
+                      },
+                      {
+                        "ui": {
+                            "hint": {
+                                "en": "Nivel socioeconomico E"
+                            },
+                            "title": {
+                                "en": "Nivel socioeconomico E"
+                            }
+                        },
+                        "name": "hh_income_003",
+                        "description": "Nivel socioeconomico E",
+                        "data": [
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Impressions"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Impressions"
+                              }
+                            },
+                            "name": "audience_impressions",
+                            "description": "Hourly Audience Impressions"
+                          },
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Frequency"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Frequency"
+                              }
+                            },
+                            "name": "audience_frequency",
+                            "description": "Hourly Audience Frequency"
+                          },
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience unique reach"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Unique Reach"
+                              }
+                            },
+                            "name": "audience_frequency",
+                            "description": "Hourly Audience Unique Reach"
+                          }, 
+                          {
+                            "ui": {
+                              "hint": {
+                                  "en": "Hourly Audience Exposure"
+                              },
+                              "title": {
+                                  "en": "Hourly Audience Exposure"
+                              }
+                            },
+                            "name": "audience_expousure",
+                            "description": "Hourly Audience Exposure"
+                          }
+                        ]
+                      }
+
+                  ],
+                  "description": "Household incomes subcategory"
+              }
+          ]
+      }
+  ],
+  "providerName": "Dat's Why",
+  "geographicZone": "MX"
+}
