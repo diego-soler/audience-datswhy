@@ -1,0 +1,11 @@
+.vscode
+coverage
+node_modules
+shell_scripts
+tarballs
+test
+.eslintrc
+.gitignore
+jest.config.js
+tsconfig.json
+

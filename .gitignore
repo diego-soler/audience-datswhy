@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# npm package-lock.json
+package-lock.json
+
+
+# Local VS CODE settings
+.vscode/settings.json
